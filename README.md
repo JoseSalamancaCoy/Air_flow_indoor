@@ -29,6 +29,9 @@ Partimos de 3 asunciones:
 - El material particulado no varia en distancias cercanas (menores a 100mt)
 
 Aprovechando estas tres asucniones nos planteamos la posibilidad de determinar el flujo de aire en interiores comparando los niveles de material particulado en el interior y exterior de un recinto "cerrado".
+
+![VEAME](VEAME.jpg "Topologia del sistema") 
+
 ### Hipótesis
 
 Tenemos 2 hipótesis que intentaremos responder.
