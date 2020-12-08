@@ -1,0 +1,9 @@
+El archivo de Transmitir es para transmitir datos automaticamente pero aun no esta finalizado
+
+El codigo de Reestructurar lo que hace es coger los .json de las carpetas y unificarlo en el mismo 
+formato que se descarga del servidor, despues de reestructurar en un solo Json (Indoor o Outdoor)
+se repite el proceso de Download.ipynb en el repositorio de Air_flow_indoor. Como nota no menor
+se debe crear los archivos KeysIndoor y KeysOutdoor cada que se añadan nuevos datos en las carpetas,
+la forma como lo cree fue con ls > Data.txt al interior de cada carpeta, despues cree los keysIndoor.csv 
+y agregue el contenido de los nombres producto del "ls > Data.txt", finalmente añado al inicio la correspondiente
+direccion a la carpeta contenedora de los archivo, con editor de notas es sencillo hacerlo!!
