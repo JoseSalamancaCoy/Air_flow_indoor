@@ -1,56 +1,50 @@
                             Variables Internas
 
-b = Voltaje de Bateria
+b = Voltaje de Batería
 v = Voltaje de Entrada
 
-                            Variables Climaticas
+                            Variables Climáticas
+
 t = Temperatura
 h = Humedad 
-p = Presion
-
+p = Presión
                             Variables de Gases
 
-La unica medicion de gases en este caso es la de CO2, se dispone de dos sensores, cada uno genera "4" tipo
-de variables, la medicion cruda es la de adc, con esta se calcula la resistencia y finalmente utilizando 
-rzero se puede calcular el nivel de CO2 en ppm, sin embargo esto no indica exactitud en la medicion.
+La única medición de gases en este caso es la de CO2, se dispone de dos sensores, cada uno genera "4" tipo
+de variables, la medición cruda es la de adc, con esta se calcula la resistencia y finalmente utilizando 
+rzero se puede calcular el nivel de CO2 en ppm, sin embargo esto no indica exactitud en la medición.
 
 Por lo anterior pueden existir varias columnas de datos, donde N (Puede ser 1 o 2) es el sensor,
-TYPO (Puede ser adc,res,rzero,ppm) es el tipo de dato relacionado a la medicion de CO2.
+TYPO (Puede ser adc,res,rzero,ppm) es el tipo de dato relacionado a la medición de CO2.
 
 co2_TYPO_N       = Promedio de datos durante un minuto
-co2_TYPO_N_desv  = Desviasion estandar de los datos en un minuto
-co2_TYPO_N_min   = Valor minimo en un minuto
-co2_TYPO_N_max   = Valor maximo en un minuto
+co2_TYPO_N_desv  = Desviación estándar de los datos en un minuto
+co2_TYPO_N_min   = Valor mínimo en un minuto
+co2_TYPO_N_max   = Valor máximo en un minuto
 
-ej: co2_ppm_2_max = Valor maximo de ppm en el sensor 2
-
-
+ej: co2_ppm_2_max = Valor máximo de ppm en el sensor 2
 
                             Variables de Material particulado
-Histograma de conteo:
 
-Para la medicion de Material particulado se utiliza el prinsipio de dispersion laser, basicamente se dispara un 
-laser infrarojo y se observa la dispersion de este cuando pasa por una cabidad con material particulado, de esta
-forma se cuenta el numero de particulas presentes en el aire para cada instante de tiempo. Con la informacion anterior
-se contruye un histograma de conteos para distintos tamaños de particulas, el sensor que utilizamos puede diferenciar 
-los siguientes tamaños: 0.3um,0.5um,1um,2.5um,10um el histograma de particulas se puede obtener de la siguiente forma:
+Histograma de conteo:
+Para la medición de Material particulado se utiliza el principio de dispersión láser, básicamente se dispara un 
+láser infrarrojo y se observa la dispersión de este cuando pasa por una cavidad con material particulado, de esta
+forma se cuenta el numero de partículas presentes en el aire para cada instante de tiempo. Con la información anterior
+se construye un histograma de conteos para distintos tamaños de partículas, el sensor que utilizamos puede diferenciar 
+los siguientes tamaños: 0.3um,0.5um,1um,2.5um,10um el histograma de partículas se puede obtener de la siguiente forma:
 
 ej:
-pm_n_0_3_desv = La desviacion en el conteo de particulas con un diametro mayor a 0.3um.
-pm_n_10_0     = El conteo de particulas con un diametro mayor a 10um.
+pm_n_0_3_desv = La desviación en el conteo de partículas con un diámetro mayor a 0.3um.
+pm_n_10_0     = El conteo de partículas con un diámetro mayor a 10um.
 
-Nota: Cada medicion contiene media, maxmio, minimo y desviacion. La frecuencia de muestreo es de 2 segundos, sin 
-embargo en los datos habran cada minuto.
+Nota: Cada medición contiene media, máximo, mínimo y desviación. La frecuencia de muestreo es de 2 segundos, sin 
+embargo en los datos habrán cada minuto.
 
 
-
-Unidades en ug/m3 (Medicion estandar)
-
-Para el calculo del material particulado en unidades de peso/volumen, el sensor asume que todas las particulas 
-son esfericas y con una densidad especifica, ademas de un flujo de aire constante. Con lo anterior y el histograma
-de particulas, el sensor calcula PM10, PM2.5 y PM1. Adicional a esto extraemos dos tipos de variable segun su "Calidad"
-a una la llamamos "au" que en teoria sirve para mediciones elevadas de material particulado y "sp" que en teoria es mas
-precisa en unidades "normales" (Mas presentes en la mayoria de casos).
+Unidades en ug/m3 (Medición estándar):
+Para el cálculo del material particulado en unidades de peso/volumen, el sensor asume que todas las partículas 
+son esféricas y con una densidad especifica, ademas de un flujo de aire constante. Con lo anterior y el histograma
+de partículas, el sensor calcula PM10, PM2.5 y PM1. Adicional a esto extraemos dos tipos de variable según su "Calidad"
 
 ej:
 pm10_0_au     = Nivel de PM10 con calidad "au"
