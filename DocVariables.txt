@@ -1,0 +1,162 @@
+                            Variables Internas
+
+b = Voltaje de Bateria
+v = Voltaje de Entrada
+
+                            Variables Climaticas
+t = Temperatura
+h = Humedad 
+p = Presion
+
+                            Variables de Gases
+
+La unica medicion de gases en este caso es la de CO2, se dispone de dos sensores, cada uno genera "4" tipo
+de variables, la medicion cruda es la de adc, con esta se calcula la resistencia y finalmente utilizando 
+rzero se puede calcular el nivel de CO2 en ppm, sin embargo esto no indica exactitud en la medicion.
+
+Por lo anterior pueden existir varias columnas de datos, donde N (Puede ser 1 o 2) es el sensor,
+TYPO (Puede ser adc,res,rzero,ppm) es el tipo de dato relacionado a la medicion de CO2.
+
+co2_TYPO_N       = Promedio de datos durante un minuto
+co2_TYPO_N_desv  = Desviasion estandar de los datos en un minuto
+co2_TYPO_N_min   = Valor minimo en un minuto
+co2_TYPO_N_max   = Valor maximo en un minuto
+
+ej: co2_ppm_2_max = Valor maximo de ppm en el sensor 2
+
+
+
+                            Variables de Material particulado
+Histograma de conteo:
+
+Para la medicion de Material particulado se utiliza el prinsipio de dispersion laser, basicamente se dispara un 
+laser infrarojo y se observa la dispersion de este cuando pasa por una cabidad con material particulado, de esta
+forma se cuenta el numero de particulas presentes en el aire para cada instante de tiempo. Con la informacion anterior
+se contruye un histograma de conteos para distintos tamaños de particulas, el sensor que utilizamos puede diferenciar 
+los siguientes tamaños: 0.3um,0.5um,1um,2.5um,10um el histograma de particulas se puede obtener de la siguiente forma:
+
+ej:
+pm_n_0_3_desv = La desviacion en el conteo de particulas con un diametro mayor a 0.3um.
+pm_n_10_0     = El conteo de particulas con un diametro mayor a 10um.
+
+Nota: Cada medicion contiene media, maxmio, minimo y desviacion. La frecuencia de muestreo es de 2 segundos, sin 
+embargo en los datos habran cada minuto.
+
+
+
+Unidades en ug/m3 (Medicion estandar)
+
+Para el calculo del material particulado en unidades de peso/volumen, el sensor asume que todas las particulas 
+son esfericas y con una densidad especifica, ademas de un flujo de aire constante. Con lo anterior y el histograma
+de particulas, el sensor calcula PM10, PM2.5 y PM1. Adicional a esto extraemos dos tipos de variable segun su "Calidad"
+a una la llamamos "au" que en teoria sirve para mediciones elevadas de material particulado y "sp" que en teoria es mas
+precisa en unidades "normales" (Mas presentes en la mayoria de casos).
+
+ej:
+pm10_0_au     = Nivel de PM10 con calidad "au"
+pm2_5_sp_min  = Valor minimo de PM2.5 con calidad "sp" en el minuto de medicion.
+pm1_0_sp_desv = Desviasion estandar de PM1 en calidad "sp" correspondiente al promedio(pm1_0_sp) de datos recolectados en el minuto de medicion
+
+
+
+
+
+
+
+A continuacion se listan todas las varibales de la estacion de monitoreo
+
+
+        #Variables Internas
+v
+b
+        #Variables climaticas
+t
+h
+p
+        #Variables de Gases
+co2_adc_1
+co2_adc_1_desv
+co2_adc_1_max
+co2_adc_1_min
+co2_adc_2
+co2_adc_2_desv
+co2_adc_2_max
+co2_adc_2_min
+co2_ppm_1
+co2_ppm_1_desv
+co2_ppm_1_max
+co2_ppm_1_min
+co2_ppm_2
+co2_ppm_2_desv
+co2_ppm_2_max
+co2_ppm_2_min
+co2_res_1
+co2_res_1_desv
+co2_res_1_max
+co2_res_1_min
+co2_res_2
+co2_res_2_desv
+co2_res_2_max
+co2_res_2_min
+co2_rzero
+co2_rzero_1
+co2_rzero_1_desv
+co2_rzero_1_max
+co2_rzero_1_min
+co2_rzero_2
+co2_rzero_2_desv
+co2_rzero_2_max
+co2_rzero_2_min
+
+
+        #Variables de Material particulado Histograma
+pm_n_0_3
+pm_n_0_3_desv
+pm_n_0_3_max
+pm_n_0_3_min
+pm_n_0_5
+pm_n_0_5_desv
+pm_n_0_5_max
+pm_n_0_5_min
+pm_n_10_0
+pm_n_10_0_desv
+pm_n_10_0_max
+pm_n_10_0_min
+pm_n_1_0
+pm_n_1_0_desv
+pm_n_1_0_max
+pm_n_1_0_min
+pm_n_2_5
+pm_n_2_5_desv
+pm_n_2_5_max
+pm_n_2_5_min
+
+
+        "Variables de Material particulado
+pm10_0_au
+pm10_0_au_desv
+pm10_0_au_max
+pm10_0_au_min
+pm10_0_sp
+pm10_0_sp_desv
+pm10_0_sp_max
+pm10_0_sp_min
+pm1_0_au
+pm1_0_au_desv
+pm1_0_au_max
+pm1_0_au_min
+pm1_0_sp
+pm1_0_sp_desv
+pm1_0_sp_max
+pm1_0_sp_min
+pm2_5_au
+pm2_5_au_desv
+pm2_5_au_max
+pm2_5_au_min
+pm2_5_sp
+pm2_5_sp_desv
+pm2_5_sp_max
+pm2_5_sp_min
+
+
+
