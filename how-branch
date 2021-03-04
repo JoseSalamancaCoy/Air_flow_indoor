@@ -1,0 +1,155 @@
+[33mcommit 0e6c428fb61803ec48fea8ed4183f99432dd904c[m[33m ([m[1;36mHEAD -> [m[1;32mCO2[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m, [m[1;32mmaster[m[33m)[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Wed Dec 9 13:11:14 2020 -0500
+
+    Se agregaron las gráficas de los hisotogramas
+
+[33mcommit 064060f0f126904e884ffd19d4243a9d54913ab0[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Wed Dec 9 03:05:40 2020 -0500
+
+    Update experimento 7
+
+[33mcommit d240c40edfabcab9bd62a2c7a521dc442042bcd5[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 21:15:19 2020 -0500
+
+    update experimento 6
+
+[33mcommit f88a62ac23783342bd56ea39b7a0fd16f5187ecc[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 18:43:13 2020 -0500
+
+    Update experimento 5
+
+[33mcommit e910d6c39de358e5aca5eebab645f6970c33b98f[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 17:32:59 2020 -0500
+
+    Update analisis Dispositivo experimento 4
+
+[33mcommit 67535376f00e56638bb6efe7d14d4f241daa018f[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 17:32:43 2020 -0500
+
+    Update analisis Dispositivo experimento 3
+
+[33mcommit a682808867fb1be929dde9d4cda0a71d01cf9fa1[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 17:31:50 2020 -0500
+
+    Update analisis Dispositivo 1
+
+[33mcommit a656ccddfb98d97a3de69a01ab0140a6341e1ca8[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Dec 8 16:50:28 2020 -0500
+
+    Update documentacion Variables
+
+[33mcommit a0b216424912e21fff38d74fe854d0c645bd4d0a[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Dec 8 16:42:46 2020 -0500
+
+    Update Reestructurar
+
+[33mcommit 08ea4b65f5e0c6d83e3e3c2fcaeb7e3db20600f5[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Dec 8 16:42:01 2020 -0500
+
+    Provisional: estructuracion de datos
+
+[33mcommit 60915de30f1c7f36e6113c1b63d3a7a51a1dc2d1[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Dec 8 16:40:57 2020 -0500
+
+    ignore .json
+
+[33mcommit f3684ee7b8a1d31813e0ffd5fbb2f5686550735b[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Dec 8 16:35:20 2020 -0500
+
+    Documentacion Variables
+
+[33mcommit 6c7e10827d847c61e17957b94837229b94dda223[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 02:25:56 2020 -0500
+
+    Se agrego la metodología del experimento número 4, y el análisis previo
+
+[33mcommit 957e897410f1abe48433ccf4fb3563e770905a2d[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Tue Dec 8 00:42:12 2020 -0500
+
+    Se agrego el modulo para visualización rapida de los datos y el anális del experimento #3
+
+[33mcommit ad19998f3614ce8f408cb74216b186bc75a0add6[m
+Author: miguelta281@gmail.com <miguelta281@gmail.com>
+Date:   Sun Dec 6 00:56:30 2020 -0500
+
+    Avance en el anális del experimento #3
+
+[33mcommit eb3ac1a25050b88231501e51fee20dc7aedc4220[m
+Author: JoseSalamancaCoy <39279717+JoseSalamancaCoy@users.noreply.github.com>
+Date:   Tue Nov 10 09:50:00 2020 -0500
+
+    New Asuncion Readme Global
+
+[33mcommit 69f743466fb70f02fbb7dffacf822123639d80ae[m
+Author: JoseSalamancaCoy <39279717+JoseSalamancaCoy@users.noreply.github.com>
+Date:   Mon Nov 9 21:38:09 2020 -0500
+
+    Update Metodología en Experimento/problema
+
+[33mcommit b75e90cd6d51021eff9f1b9ed1ab610161b4fff0[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Mon Nov 9 20:56:33 2020 -0500
+
+    Update Contexto del repositorio
+
+[33mcommit 0ceab33d9cdb13fc81874acff19d0b7997238076[m
+Author: JoseSalamancaCoy <39279717+JoseSalamancaCoy@users.noreply.github.com>
+Date:   Mon Nov 9 20:47:37 2020 -0500
+
+    Update README.md
+
+[33mcommit 9f45fdf6f477f2b75f6640e23d8cafe9463b85a1[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Sep 29 13:26:14 2020 -0500
+
+    Adicion experimento 2
+
+[33mcommit d146fa7851fff2aa33087e9867d63ea48474e5f1[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Tue Sep 29 13:25:32 2020 -0500
+
+    Re-estructura
+
+[33mcommit cf9042776628d1624f6d0d9b733da24b3ae44b55[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Mon Sep 28 18:52:38 2020 -0500
+
+    Actualizacion para tabla de datos
+
+[33mcommit 8b1f3b5b38467160973d2f30e9574572d029f3db[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Mon Sep 28 09:55:09 2020 -0500
+
+    Estructura base de experimentos
+
+[33mcommit fc8df4df114eb07e7ac8a9b531e8b65e7b9880ed[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Mon Sep 28 01:38:31 2020 -0500
+
+    Descarga de datos, basico
+
+[33mcommit 2d5a4a94cfc843d023df7500e6a781a806e42e3e[m
+Author: JoseSalamancaCoy <jose.salamancacoy@gmail.com>
+Date:   Mon Sep 28 00:15:01 2020 -0500
+
+    Estructura de repositorio
+
+[33mcommit 2209cbfa364c3864570f175871e59797f7029344[m
+Author: JoseSalamancaCoy <39279717+JoseSalamancaCoy@users.noreply.github.com>
+Date:   Mon Sep 28 00:00:54 2020 -0500
+
+    Initial commit

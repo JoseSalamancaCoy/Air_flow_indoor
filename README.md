@@ -22,19 +22,4 @@ Existe una metodología propuesta por hardvard para la reapertura de colegios, e
 En china ya han hecho acercamientos de esta idea [Ver](https://www.sciencedirect.com/science/article/abs/pii/S0360132318305134?casa_token=5upCUbqnnQIAAAAA:xpH1wx8Er7UcfX5xv5GUgkTpMckWAsesRub92xgonayjHrm5KZZxSct9Jg-m-zER9EIKOsaCb1GB).
 
 
-### Asunciones
-Partimos de 3 asunciones:
-- El material particulado varia a lo largo del día, esto se debe a fenómenos contaminantes y el flujo natural de aire en exteriores.
-- El material particulado varia en interiores debido principalmente a fuentes puntuales como cocinas, en menor medida por el flujo de aire que ocasionan la re-suspensión de partículas que estaban adheridas a superficies planas como paredes.
-- El material particulado no varia en distancias cercanas (menores a 100mt)
-
-Aprovechando estas tres asucniones nos planteamos la posibilidad de determinar el flujo de aire en interiores comparando los niveles de material particulado en el interior y exterior de un recinto "cerrado".
-
-![VEAME](VEAME.jpg "Topologia del sistema") 
-
-### Hipótesis
-
-Tenemos 2 hipótesis que intentaremos responder.
-
-- Si al interior de una habitación no existe flujo de aire, el nivel de PM10, PM2-5 o PM1 no cambiara.
-- Los cambios en los niveles de PM10, PM2.5 y PM1 en exterior o interior tendrán una respuesta transitoria detectable en minutos, esto ocasionara deltas entre el exterior y el interior, el tiempo en el cual este delta se hace cero y/o la amplitud del delta y/o la velocidad con que cambia el material particulado en interior será proporcional a la velocidad con la cual el aire interno se cambia por aire externo.
+MakeSens [Ver](https://www.makesens.com.co/), a desarrollado a ERIS para hacer la medicion de flujo de aire en interiores a partir de la medicion de CO2
