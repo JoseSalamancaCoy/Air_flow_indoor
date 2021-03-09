@@ -54,7 +54,7 @@ def LinearModel(variables,porcentage):
     Yc = sum([variables[i] * coef[i-1] for i in range(1,len(variables))] ) + intercept
     return lin_reg_mod.coef_, lin_reg_mod.intercept_ , Yc
 
-def calibracion (name:list,data_start:int, data_end:int):
+def _import (name:list,data_start:int, data_end:int):
     datar = pd.read_csv(name[0])
     
     datar.columns = ['Time', 'CO2_ar', 'T', 'H', 'P']
@@ -71,7 +71,7 @@ def calibracion (name:list,data_start:int, data_end:int):
 
         data = pd.read_csv(name[i])
 
-        data.index = pd.DatetimeIndex(data.timestamp) -  pd.Timedelta(minutes = 2)
+        data.index = pd.DatetimeIndex(data.timestamp) #-  pd.Timedelta(minutes = 2)
         data = data.resample('1T').mean()
         data.index = data.index.strftime('%Y-%m-%d %H:%M:%S')
 

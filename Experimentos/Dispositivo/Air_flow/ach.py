@@ -77,7 +77,7 @@ def ACH (data,col,start_date,interim_date,end_date):
    
     data = cutdata([data],interim_date,end_date)[0]
 
-    c_ambient = 400 #np.mean(np.array([float(data_2.CO2.mean()), float(data_1.CO2.mean())]))
+    c_ambient = 435 #np.mean(np.array([float(data_2.CO2.mean()), float(data_1.CO2.mean())]))
 
     aux = list(np.where(data.iloc[:,col] == float(data.iloc[:,col].max()))[0])[0]
     c_star =float(data.iloc[:,col].max())
@@ -97,7 +97,7 @@ def ACH (data,col,start_date,interim_date,end_date):
     plt.annotate(str(t_star) + ':' + str(round(c_star,2)) + ' ppm', (t_star + pd.Timedelta(minutes = 0), c_star ))
     plt.annotate(str(t_end) + ':' + str(round(c_end,2)) + ' ppm', (t_end  + pd.Timedelta(minutes = 0), c_end  ))
     plt.ylabel('CO2 [ppm]', fontsize = 16)
-    plt.xlabel('Tiempo', fontsize = 16)
+    plt.xlabel('Fecha', fontsize = 16)
     plt.show()
 
     print( 'Calidad:', calidad(ACH), ', ACH:', ACH)
